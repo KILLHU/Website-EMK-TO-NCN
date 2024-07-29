@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.file-input {
+  position: relative;
+  margin-bottom: 20px; /* ปรับระยะห่าง */
+}
+
+.file-input input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input label {
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-input label:hover {
+  background-color: #45a049;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+.credit p {
+  margin: 0;
+}
+
+.credit a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#file-name {
+  display: none; /* ซ่อนไว้ตอนแรก */
+  margin-top: 5px; /* ปรับระยะห่าง */
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#error-message {
+  display: none; /* ซ่อนไว้ตอนแรก */
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 14px;
+}

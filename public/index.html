@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EMK TO NCN</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>EMK TO NCN</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <div class="file-input">
+        <input type="file" name="file" id="file" accept=".emk">
+        <label for="file">เลือกไฟล์</label>
+      </div>
+      <span id="file-name" style="display: none;"></span> 
+      <span id="error-message" style="display: none; color: red;">กรุณาเลือกไฟล์</span>
+      <button type="submit"><i class="fas fa-cloud-upload-alt"></i> อัปโหลด</button>
 
+    </form>
+    <footer>
+      <div class="credit">
+        <p>ขอบคุณ <i class="fas fa-heart"></i> emkunpack.js จาก <a href="https://github.com/alula" target="_blank">alula</a></p>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
