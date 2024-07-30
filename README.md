@@ -31,7 +31,7 @@ Karaoke File Converter
 
 ## การสนับสนุน
 
-หากคุณมีคำถามหรือข้อเสนอแนะ, คุณสามารถติดต่อเราที่ [Email](lgjames.co@gmail.com) หรือเปิดปัญหาใน [issues](https://github.com/Voravit52/Website-EMK-TO-NCN/issues)]
+หากคุณมีคำถามหรือข้อเสนอแนะ, คุณสามารถติดต่อเราที่ [Email](lgjames.co@gmail.com) หรือเปิดปัญหาใน [issues](https://github.com/Voravit52/Website-EMK-TO-NCN/issues)
 
 ## ลิงก์
 
