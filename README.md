@@ -1,4 +1,4 @@
-# Karaoke File Converter
+Karaoke File Converter
 
 โปรเจกต์นี้เป็นเครื่องมือสำหรับแปลงไฟล์ Karaoke จากรูปแบบ `.emk` เป็น `.ncn` โดยใช้โค้ดจาก Gist ของ [alula](https://gist.github.com/alula/2c1edc360772b3bcde4de85ca731ae71) และบีบอัดไฟล์ที่แปลงแล้วเป็น `.zip` เพื่อให้ผู้ใช้สามารถดาวน์โหลดได้
 
@@ -31,8 +31,8 @@
 
 ## การสนับสนุน
 
-หากคุณมีคำถามหรือข้อเสนอแนะ, คุณสามารถติดต่อเราที่ [lgjames.co@gmail.com] หรือเปิดปัญหาใน [https://github.com/KILLHU/Website-EMK-TO-NCN/pulls]
+หากคุณมีคำถามหรือข้อเสนอแนะ, คุณสามารถติดต่อเราที่ [Email](lgjames.co@gmail.com) หรือเปิดปัญหาใน [issues](https://github.com/Voravit52/Website-EMK-TO-NCN/issues)]
 
 ## ลิงก์
 
-- [Deploy in Render](https://render.com)
+- [emk to ncn](https://teaminiproject.vercel.app/emktoncn.html)
